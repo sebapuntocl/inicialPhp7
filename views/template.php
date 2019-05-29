@@ -14,6 +14,7 @@ session_start();
     <link rel="stylesheet" href="views/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="views/dist/css/font-awesome.css">
     <link rel="stylesheet" href="views/dist/css/sweetalert.css">
+    <link rel="stylesheet" href="views/dist/componentes/dataTables/dataTables.bootstrap4.min.css">
     <link rel="stylesheet" href="views/dist/css/styles.css">
 
     <!-- archivos js -->
@@ -21,6 +22,8 @@ session_start();
     <script src="views/dist/js/bootstrap.bundle.min.js" ></script>
     <script src="views/dist/js/font-awesome.js"></script>
     <script src="views/dist/js/sweetalert.min.js"></script>
+    <script src="views/dist/componentes/dataTables/jquery.dataTables.js"></script>
+    <script src="views/dist/componentes/dataTables/dataTables.bootstrap4.min.js"></script>
     <script src="views/dist/js/main.js"></script>
   </head>
 
