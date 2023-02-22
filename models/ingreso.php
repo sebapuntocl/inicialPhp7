@@ -14,8 +14,6 @@ class IngresoModels{
 
 		return $stmt -> fetch();
 
-		$stmt -> close();
-
 	}
 
 	public static function intentosModel($datosModel, $tabla){

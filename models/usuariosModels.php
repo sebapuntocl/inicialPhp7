@@ -16,9 +16,6 @@ public static function vistaUsuariosModel($tabla){
 
 		return $stmt -> fetchAll();
 
-		$stmt -> close();
-
-
 }
 
 
@@ -48,8 +45,6 @@ public static function registroUsuariosModel($datosModel, $tabla){
 			return "error";
 
 		}
-
-		$stmt->close();
 
 	}
 
@@ -82,8 +77,6 @@ public static function registroUsuariosModel($datosModel, $tabla){
 
 		}
 
-		$stmt->close();
-
 	}
 
 
@@ -107,8 +100,6 @@ public static function registroUsuariosModel($datosModel, $tabla){
 			return "error";
 
 		}
-
-		$stmt->close();
 
 	}
 
